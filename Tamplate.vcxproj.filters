@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{03e4a535-6964-4d47-a5b2-2fd5cc01d248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="func">
+      <UniqueIdentifier>{d0b1f8dc-2410-40f8-b673-cdb8203488db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="funcs.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="funcs.h">
+      <Filter>func</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
